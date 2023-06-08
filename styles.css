@@ -1,0 +1,103 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0c45ff;
+    padding: 20px;
+    color: #ffee00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  /* Social links styles */
+  .social-links {
+    display: flex;
+  }
+  
+  .social-links li {
+    margin-left: 10px;
+  }
+  
+  .social-links li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects section styles */
+  section#projects h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  
